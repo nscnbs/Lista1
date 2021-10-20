@@ -1,0 +1,22 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+Main <|-- Pascal
+Pascal <|-- WierzTrojkataPascala
+
+class Main {
+Run [code]
+pascal.go()
+}
+
+class Pascal{
+void go() [warunek dla trojkata and GUI]
+void start() [part of GUI]
+}
+
+class WierzTrojkataPascala {
+int trojkat [][]
+return trojkat[n][m]
+}
+
+@enduml
